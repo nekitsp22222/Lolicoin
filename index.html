@@ -9,53 +9,76 @@
     body {
       margin: 0;
       font-family: 'Comic Neue', cursive;
-      background: linear-gradient(to bottom right, #ffe6f0, #d0e2ff);
+      background: linear-gradient(to bottom right, #fff2f8, #e5f0ff);
       color: #333;
       text-align: center;
     }
     .hero {
-      padding: 30px 20px 10px;
+      padding: 40px 20px 20px;
     }
     .hero h1 {
-      font-size: 36px;
+      font-size: 42px;
       color: #ff69b4;
-      margin: 10px 0 6px;
+      margin-bottom: 12px;
+      text-shadow: 1px 1px 1px #fff;
     }
     .hero p {
-      font-size: 16px;
-      max-width: 500px;
-      margin: 8px auto 12px;
+      font-size: 18px;
+      max-width: 600px;
+      margin: 10px auto 15px;
+      line-height: 1.5;
     }
     .logo {
-      width: 140px;
+      width: 160px;
       border-radius: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 0 10px rgba(255,105,180,0.3);
     }
     .btn {
       display: inline-block;
-      padding: 10px 22px;
+      padding: 12px 28px;
       background-color: #ff85c1;
       color: white;
       text-decoration: none;
-      border-radius: 25px;
+      border-radius: 30px;
       font-size: 16px;
-      margin-top: 10px;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #ff5ba0;
     }
     .section {
-      padding: 20px 20px 10px;
+      padding: 25px 20px 15px;
     }
     .section h2 {
-      font-size: 24px;
+      font-size: 26px;
       color: #ff69b4;
-      margin-bottom: 6px;
+      margin-bottom: 10px;
     }
     .section p {
-      font-size: 15px;
-      margin: 4px auto 8px;
+      font-size: 16px;
+      margin: 5px auto 10px;
       max-width: 600px;
     }
+    .telegram {
+      margin-top: 20px;
+    }
+    .telegram a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #229ED9;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    .telegram a:hover {
+      background-color: #1d90c4;
+    }
     .footer {
-      padding: 12px;
+      padding: 15px;
       font-size: 13px;
       color: #888;
     }
@@ -64,7 +87,7 @@
 <body>
 
   <div class="hero">
-    <img class="logo" src="Logo.png" alt="LoliCoin logo" />
+    <img class="logo" src="Logo.png" alt="LoliCoin logo">
     <h1>LoliCoin ($LOLI)</h1>
     <p>The ultimate kawaii meme token for anime lovers, degens and crypto cuties. Hold. Share. Smile. No roadmap. Just waifus.</p>
     <a class="btn" href="#buy">Get $LOLI</a>
@@ -84,10 +107,9 @@
     <p><strong>Mint Address:</strong> <code>ВСТАВЬ_СЮДА_СВОЙ_АДРЕС</code></p>
   </div>
 
-  <div class="section">
-    <h2>Join the Movement</h2>
-    <p>Follow us on Telegram, X (Twitter), and TikTok.</p>
-    <p>Make memes. Win drops. Be the cutest degen alive.</p>
+  <div class="section telegram">
+    <h2>Join Us on Telegram</h2>
+    <a href="https://t.me/+duCDq77hsmNhMDIy" target="_blank">Join $LOLI Community</a>
   </div>
 
   <div class="footer">
