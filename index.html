@@ -94,10 +94,30 @@
       padding: 15px;
       font-size: 13px;
       color: #888;
+.falling-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('falling-loli.png');
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center top;
+  z-index: -1;
+  animation: scrollBG 12s linear infinite;
+}
+
+@keyframes scrollBG {
+  0% { background-position-y: 0; }
+  100% { background-position-y: 100%; }
+}
+
     }
   </style>
 </head>
 <body>
+<div class="falling-bg"></div>
 
   <div class="hero">
     <img class="logo" src="Logo.png" alt="LoliCoin logo">
